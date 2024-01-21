@@ -1,0 +1,33 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Wybór Książki</title>
+  <!-- inne metatagi, linki do CSS itp. -->
+</head>
+<form name="WyborKsiazki">
+  <tr>
+    <th>Nazwa Książki - </th>
+    <th>Autor,</th>
+    <th>Cena</th>
+  </tr>
+  <table class="table">
+
+    <div class="form-group">
+      <select class="form-select"
+              cam-variable-type="String"
+              cam-variable-name="wybranaKsiazka"
+              name="wybranaKsiazka"
+      >
+        <option value="Kamień na kamieniu - Wiesław Myśliwski"> "Kamień na kamieniu" - Wiesław Myśliwski, 29.99 zł </option>
+        <option value="Przedwiośnie - Stefan Żeromski"> "Przedwiośnie" - Stefan Żeromski, 28.60 zł </option>
+        <option value="Kontra - Józef Mackiewicz"> "Kontra" - Józef Mackiewicz, 27.59 zł </option>
+        <option value="Zły - Leopold Tyrmand"> "Zły" - Leopold Tyrmand, 21.37 zł </option>
+        <option value="Widnokrąg - Wiesław Myśliwski"> "Widnokrąg" - Wiesław Myśliwski, 25.96 zł </option>
+        <option value="Popioly - Stefan Żeromski"> "Popioły" - Stefan Żeromski, 28.14 zł </option>
+        <option value="Droga donikąd - Józef Mackiewicz"> "Droga donikąd" - Józef Mackiewicz, 28.72 zł </option>
+        <option value="Siedem dalekich rejsów - Leopold Tyrmand"> "Siedem dalekich rejsów" - Leopold Tyrmand, 28.69 zł </option>
+        <option value="Pałac - Wiesław Myśliwski"> "Pałac" - Wiesław Myśliwski, 24.73 zł </option>
+      </select>
+    </div>
+  </table>
+  <input type="submit" class="btn btn-primary" value="Wyślij">
+</form>
